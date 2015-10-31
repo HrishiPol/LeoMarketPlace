@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C00F9A41BC432EC000823EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C00F9A31BC432EC000823EB /* main.m */; };
+		6C00F9AF1BC432EC000823EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C00F9AE1BC432EC000823EB /* Assets.xcassets */; };
+		6C00F9B21BC432EC000823EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C00F9B01BC432EC000823EB /* LaunchScreen.storyboard */; };
+		6C0F15A81BDB973100929317 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F15A31BDB973100929317 /* AppManager.m */; };
+		6C0F15A91BDB973100929317 /* AppManager+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F15A51BDB973100929317 /* AppManager+User.m */; };
+		6C0F15AA1BDB973100929317 /* AppManager+WorkOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F15A61BDB973100929317 /* AppManager+WorkOrder.m */; };
+		6C0F15AD1BDBBA4B00929317 /* AppManager+LookUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F15AC1BDBBA4B00929317 /* AppManager+LookUp.m */; };
+		6C0F15B01BDBBCB900929317 /* QSISessionManager+LookUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F15AF1BDBBCB900929317 /* QSISessionManager+LookUp.m */; };
+		6C4FC4EF1BCC29350094C87D /* QSISessionManager+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FC4EA1BCC29350094C87D /* QSISessionManager+User.m */; };
+		6C4FC4F11BCC29350094C87D /* WebservicesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FC4ED1BCC29350094C87D /* WebservicesHelper.m */; };
+		6C4FC4F51BCC294F0094C87D /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4FC4F21BCC294F0094C87D /* Login.json */; };
+		6C4FC4F61BCC294F0094C87D /* UploadPicture.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4FC4F31BCC294F0094C87D /* UploadPicture.json */; };
+		6C4FC4F71BCC294F0094C87D /* WorkOrder.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C4FC4F41BCC294F0094C87D /* WorkOrder.json */; };
+		6C4FC5031BCC2A960094C87D /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FC5021BCC2A960094C87D /* Utilities.m */; };
+		6CC034A61BC4380B00222EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034A51BC4380B00222EDC /* AppDelegate.m */; };
+		6CC034AE1BC4383700222EDC /* Webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034AD1BC4383700222EDC /* Webservices.m */; };
+		6CC034B91BC43F3900222EDC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034B81BC43F3900222EDC /* LoginViewController.m */; };
+		6CC034BC1BC43F5900222EDC /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034BB1BC43F5900222EDC /* SignUpViewController.m */; };
+		6CC034BF1BC43F7600222EDC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034BE1BC43F7600222EDC /* SearchViewController.m */; };
+		6CC034C21BC43FF000222EDC /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034C11BC43FF000222EDC /* AboutViewController.m */; };
+		6CC034C51BC4400F00222EDC /* MerchantProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034C41BC4400F00222EDC /* MerchantProgramViewController.m */; };
+		6CC034C81BC4405B00222EDC /* UpdateProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034C71BC4405B00222EDC /* UpdateProfileViewController.m */; };
+		6CC034CB1BC4408800222EDC /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034CA1BC4408800222EDC /* ChangePasswordViewController.m */; };
+		6CC034CE1BC440B100222EDC /* POSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034CD1BC440B100222EDC /* POSViewController.m */; };
+		6CC034D11BC440D400222EDC /* InVoiceHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034D01BC440D400222EDC /* InVoiceHistoryViewController.m */; };
+		6CC034D41BC440EC00222EDC /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034D31BC440EC00222EDC /* CartViewController.m */; };
+		6CC034E01BC4437E00222EDC /* LeoMarketPlace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CC034DE1BC4437E00222EDC /* LeoMarketPlace.xcdatamodeld */; };
+		6CCAC9681BCA44BC007D2802 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAC9671BCA44BC007D2802 /* SWRevealViewController.m */; };
+		6CCAC96A1BCA49D1007D2802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CCAC9691BCA49D1007D2802 /* Main.storyboard */; };
+		6CCAC96D1BCA4F8D007D2802 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAC96C1BCA4F8D007D2802 /* MenuViewController.m */; };
+		6CF137A11BE27D5800DC0C4A /* MLKMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF137A01BE27D5800DC0C4A /* MLKMenuPopover.m */; };
+		7408DBBF7265FCB3235E7463 /* libPods-LeoMarketPlace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2717F46F2DA6B11940DCB68 /* libPods-LeoMarketPlace.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E63AE2A68558A03983964EB /* Pods-LeoMarketPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoMarketPlace.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeoMarketPlace/Pods-LeoMarketPlace.release.xcconfig"; sourceTree = "<group>"; };
+		6C00F99F1BC432EC000823EB /* LeoMarketPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoMarketPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C00F9A31BC432EC000823EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C00F9AE1BC432EC000823EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C00F9B11BC432EC000823EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C00F9B31BC432EC000823EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0F15A21BDB973100929317 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = "App Manager/AppManager.h"; sourceTree = "<group>"; };
+		6C0F15A31BDB973100929317 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppManager.m; path = "App Manager/AppManager.m"; sourceTree = "<group>"; };
+		6C0F15A41BDB973100929317 /* AppManager+Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppManager+Requests.h"; path = "App Manager/AppManager+Requests.h"; sourceTree = "<group>"; };
+		6C0F15A51BDB973100929317 /* AppManager+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppManager+User.m"; path = "App Manager/AppManager+User.m"; sourceTree = "<group>"; };
+		6C0F15A61BDB973100929317 /* AppManager+WorkOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppManager+WorkOrder.m"; path = "App Manager/AppManager+WorkOrder.m"; sourceTree = "<group>"; };
+		6C0F15A71BDB973100929317 /* AppManagerRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManagerRequestHelper.h; path = "App Manager/AppManagerRequestHelper.h"; sourceTree = "<group>"; };
+		6C0F15AC1BDBBA4B00929317 /* AppManager+LookUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppManager+LookUp.m"; path = "App Manager/AppManager+LookUp.m"; sourceTree = "<group>"; };
+		6C0F15AF1BDBBCB900929317 /* QSISessionManager+LookUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "QSISessionManager+LookUp.m"; path = "WebServices/QSISessionManager+LookUp.m"; sourceTree = "<group>"; };
+		6C4FC4E91BCC29350094C87D /* QSISessionManager+Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "QSISessionManager+Requests.h"; path = "WebServices/QSISessionManager+Requests.h"; sourceTree = "<group>"; };
+		6C4FC4EA1BCC29350094C87D /* QSISessionManager+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "QSISessionManager+User.m"; path = "WebServices/QSISessionManager+User.m"; sourceTree = "<group>"; };
+		6C4FC4EC1BCC29350094C87D /* WebservicesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebservicesHelper.h; path = WebServices/WebservicesHelper.h; sourceTree = "<group>"; };
+		6C4FC4ED1BCC29350094C87D /* WebservicesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebservicesHelper.m; path = WebServices/WebservicesHelper.m; sourceTree = "<group>"; };
+		6C4FC4F21BCC294F0094C87D /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Login.json; path = "WebServices/JSONRequests/JSON Files/Login.json"; sourceTree = "<group>"; };
+		6C4FC4F31BCC294F0094C87D /* UploadPicture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = UploadPicture.json; path = "WebServices/JSONRequests/JSON Files/UploadPicture.json"; sourceTree = "<group>"; };
+		6C4FC4F41BCC294F0094C87D /* WorkOrder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WorkOrder.json; path = "WebServices/JSONRequests/JSON Files/WorkOrder.json"; sourceTree = "<group>"; };
+		6C4FC5011BCC2A960094C87D /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = Constant/Utilities.h; sourceTree = "<group>"; };
+		6C4FC5021BCC2A960094C87D /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = Constant/Utilities.m; sourceTree = "<group>"; };
+		6C8BEC781BDD3C96008BE767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C8BEC7A1BDD3CEE008BE767 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6CC034A41BC4380B00222EDC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		6CC034A51BC4380B00222EDC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		6CC034AC1BC4383700222EDC /* Webservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Webservices.h; path = WebServices/Webservices.h; sourceTree = "<group>"; };
+		6CC034AD1BC4383700222EDC /* Webservices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Webservices.m; path = WebServices/Webservices.m; sourceTree = "<group>"; };
+		6CC034B31BC438BC00222EDC /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Constant/Constant.h; sourceTree = "<group>"; };
+		6CC034B71BC43F3900222EDC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewController/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
+		6CC034B81BC43F3900222EDC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewController/LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
+		6CC034BA1BC43F5900222EDC /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ViewController/SignUpViewController/SignUpViewController.h; sourceTree = "<group>"; };
+		6CC034BB1BC43F5900222EDC /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = ViewController/SignUpViewController/SignUpViewController.m; sourceTree = "<group>"; };
+		6CC034BD1BC43F7600222EDC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = ViewController/SearchViewController/SearchViewController.h; sourceTree = "<group>"; };
+		6CC034BE1BC43F7600222EDC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = ViewController/SearchViewController/SearchViewController.m; sourceTree = "<group>"; };
+		6CC034C01BC43FF000222EDC /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ViewController/AboutViewController/AboutViewController.h; sourceTree = "<group>"; };
+		6CC034C11BC43FF000222EDC /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ViewController/AboutViewController/AboutViewController.m; sourceTree = "<group>"; };
+		6CC034C31BC4400F00222EDC /* MerchantProgramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MerchantProgramViewController.h; path = ViewController/MerchantProgramViewController/MerchantProgramViewController.h; sourceTree = "<group>"; };
+		6CC034C41BC4400F00222EDC /* MerchantProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MerchantProgramViewController.m; path = ViewController/MerchantProgramViewController/MerchantProgramViewController.m; sourceTree = "<group>"; };
+		6CC034C61BC4405B00222EDC /* UpdateProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateProfileViewController.h; path = ViewController/UpdateProfileViewController/UpdateProfileViewController.h; sourceTree = "<group>"; };
+		6CC034C71BC4405B00222EDC /* UpdateProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateProfileViewController.m; path = ViewController/UpdateProfileViewController/UpdateProfileViewController.m; sourceTree = "<group>"; };
+		6CC034C91BC4408800222EDC /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangePasswordViewController.h; path = ViewController/ChangePasswordViewController/ChangePasswordViewController.h; sourceTree = "<group>"; };
+		6CC034CA1BC4408800222EDC /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangePasswordViewController.m; path = ViewController/ChangePasswordViewController/ChangePasswordViewController.m; sourceTree = "<group>"; };
+		6CC034CC1BC440B100222EDC /* POSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = POSViewController.h; path = ViewController/POSViewController/POSViewController.h; sourceTree = "<group>"; };
+		6CC034CD1BC440B100222EDC /* POSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = POSViewController.m; path = ViewController/POSViewController/POSViewController.m; sourceTree = "<group>"; };
+		6CC034CF1BC440D400222EDC /* InVoiceHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InVoiceHistoryViewController.h; path = ViewController/InVoiceHistoryViewController/InVoiceHistoryViewController.h; sourceTree = "<group>"; };
+		6CC034D01BC440D400222EDC /* InVoiceHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InVoiceHistoryViewController.m; path = ViewController/InVoiceHistoryViewController/InVoiceHistoryViewController.m; sourceTree = "<group>"; };
+		6CC034D21BC440EC00222EDC /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CartViewController.h; path = ViewController/CartViewController/CartViewController.h; sourceTree = "<group>"; };
+		6CC034D31BC440EC00222EDC /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CartViewController.m; path = ViewController/CartViewController/CartViewController.m; sourceTree = "<group>"; };
+		6CC034DF1BC4437E00222EDC /* LeoMarketPlace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeoMarketPlace.xcdatamodel; sourceTree = "<group>"; };
+		6CCAC9661BCA44BC007D2802 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ThirdPartyFrameWorks/SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		6CCAC9671BCA44BC007D2802 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ThirdPartyFrameWorks/SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		6CCAC9691BCA49D1007D2802 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6CCAC96B1BCA4F8D007D2802 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ViewController/MenuViewController/MenuViewController.h; sourceTree = "<group>"; };
+		6CCAC96C1BCA4F8D007D2802 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ViewController/MenuViewController/MenuViewController.m; sourceTree = "<group>"; };
+		6CF1379F1BE27D5800DC0C4A /* MLKMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKMenuPopover.h; sourceTree = "<group>"; };
+		6CF137A01BE27D5800DC0C4A /* MLKMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopover.m; sourceTree = "<group>"; };
+		8F4BF3ADCA079A0F5D25DCC6 /* Pods-LeoMarketPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoMarketPlace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeoMarketPlace/Pods-LeoMarketPlace.debug.xcconfig"; sourceTree = "<group>"; };
+		F2717F46F2DA6B11940DCB68 /* libPods-LeoMarketPlace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeoMarketPlace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C00F99C1BC432EC000823EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7408DBBF7265FCB3235E7463 /* libPods-LeoMarketPlace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5917118D1FA233E21EFF0AEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4BF3ADCA079A0F5D25DCC6 /* Pods-LeoMarketPlace.debug.xcconfig */,
+				5E63AE2A68558A03983964EB /* Pods-LeoMarketPlace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C00F9961BC432EC000823EB = {
+			isa = PBXGroup;
+			children = (
+				6C8BEC7A1BDD3CEE008BE767 /* CFNetwork.framework */,
+				6C8BEC781BDD3C96008BE767 /* Foundation.framework */,
+				6C00F9A11BC432EC000823EB /* LeoMarketPlace */,
+				5917118D1FA233E21EFF0AEB /* Pods */,
+				6C00F9A01BC432EC000823EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C00F9A01BC432EC000823EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C00F99F1BC432EC000823EB /* LeoMarketPlace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C00F9A11BC432EC000823EB /* LeoMarketPlace */ = {
+			isa = PBXGroup;
+			children = (
+				6C0F15A11BDB972200929317 /* App Manager */,
+				6CC034A31BC437FA00222EDC /* AppDelegate */,
+				6C00F9AE1BC432EC000823EB /* Assets.xcassets */,
+				6CC034B21BC438A000222EDC /* Constant */,
+				6CC034DD1BC4436600222EDC /* DataModel */,
+				CD7B561BEF91A1FC76A3CAFD /* Frameworks */,
+				6C00F9B31BC432EC000823EB /* Info.plist */,
+				6C00F9B01BC432EC000823EB /* LaunchScreen.storyboard */,
+				6CCAC9691BCA49D1007D2802 /* Main.storyboard */,
+				6C00F9A21BC432EC000823EB /* Supporting Files */,
+				6CC034E11BC443EA00222EDC /* ThirdPartyFrameWorks */,
+				6CC034A71BC4381400222EDC /* ViewController */,
+				6CC034AB1BC4382700222EDC /* WebServices */,
+			);
+			path = LeoMarketPlace;
+			sourceTree = "<group>";
+		};
+		6C00F9A21BC432EC000823EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C00F9A31BC432EC000823EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C0F15A11BDB972200929317 /* App Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6C0F15A21BDB973100929317 /* AppManager.h */,
+				6C0F15A31BDB973100929317 /* AppManager.m */,
+				6C0F15A41BDB973100929317 /* AppManager+Requests.h */,
+				6C0F15A51BDB973100929317 /* AppManager+User.m */,
+				6C0F15A61BDB973100929317 /* AppManager+WorkOrder.m */,
+				6C0F15AC1BDBBA4B00929317 /* AppManager+LookUp.m */,
+				6C0F15A71BDB973100929317 /* AppManagerRequestHelper.h */,
+			);
+			name = "App Manager";
+			sourceTree = "<group>";
+		};
+		6CC034A31BC437FA00222EDC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6CC034A41BC4380B00222EDC /* AppDelegate.h */,
+				6CC034A51BC4380B00222EDC /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6CC034A71BC4381400222EDC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CC034C01BC43FF000222EDC /* AboutViewController.h */,
+				6CC034C11BC43FF000222EDC /* AboutViewController.m */,
+				6CC034D21BC440EC00222EDC /* CartViewController.h */,
+				6CC034D31BC440EC00222EDC /* CartViewController.m */,
+				6CC034C91BC4408800222EDC /* ChangePasswordViewController.h */,
+				6CC034CA1BC4408800222EDC /* ChangePasswordViewController.m */,
+				6CC034CF1BC440D400222EDC /* InVoiceHistoryViewController.h */,
+				6CC034D01BC440D400222EDC /* InVoiceHistoryViewController.m */,
+				6CC034B71BC43F3900222EDC /* LoginViewController.h */,
+				6CC034B81BC43F3900222EDC /* LoginViewController.m */,
+				6CC034C31BC4400F00222EDC /* MerchantProgramViewController.h */,
+				6CC034C41BC4400F00222EDC /* MerchantProgramViewController.m */,
+				6CC034CC1BC440B100222EDC /* POSViewController.h */,
+				6CC034CD1BC440B100222EDC /* POSViewController.m */,
+				6CC034BD1BC43F7600222EDC /* SearchViewController.h */,
+				6CC034BE1BC43F7600222EDC /* SearchViewController.m */,
+				6CC034BA1BC43F5900222EDC /* SignUpViewController.h */,
+				6CC034BB1BC43F5900222EDC /* SignUpViewController.m */,
+				6CC034C61BC4405B00222EDC /* UpdateProfileViewController.h */,
+				6CC034C71BC4405B00222EDC /* UpdateProfileViewController.m */,
+				6CCAC96B1BCA4F8D007D2802 /* MenuViewController.h */,
+				6CCAC96C1BCA4F8D007D2802 /* MenuViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6CC034AB1BC4382700222EDC /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				6C4FC4F21BCC294F0094C87D /* Login.json */,
+				6C4FC4F31BCC294F0094C87D /* UploadPicture.json */,
+				6C4FC4F41BCC294F0094C87D /* WorkOrder.json */,
+				6C4FC4E91BCC29350094C87D /* QSISessionManager+Requests.h */,
+				6C4FC4EA1BCC29350094C87D /* QSISessionManager+User.m */,
+				6C0F15AF1BDBBCB900929317 /* QSISessionManager+LookUp.m */,
+				6C4FC4EC1BCC29350094C87D /* WebservicesHelper.h */,
+				6C4FC4ED1BCC29350094C87D /* WebservicesHelper.m */,
+				6CC034AC1BC4383700222EDC /* Webservices.h */,
+				6CC034AD1BC4383700222EDC /* Webservices.m */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		6CC034B21BC438A000222EDC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				6C4FC5011BCC2A960094C87D /* Utilities.h */,
+				6C4FC5021BCC2A960094C87D /* Utilities.m */,
+				6CC034B31BC438BC00222EDC /* Constant.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		6CC034DD1BC4436600222EDC /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6CC034DE1BC4437E00222EDC /* LeoMarketPlace.xcdatamodeld */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		6CC034E11BC443EA00222EDC /* ThirdPartyFrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF1379E1BE27D4200DC0C4A /* MLKMenuPopover */,
+				6CCAC9661BCA44BC007D2802 /* SWRevealViewController.h */,
+				6CCAC9671BCA44BC007D2802 /* SWRevealViewController.m */,
+			);
+			name = ThirdPartyFrameWorks;
+			sourceTree = "<group>";
+		};
+		6CF1379E1BE27D4200DC0C4A /* MLKMenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				6CF1379F1BE27D5800DC0C4A /* MLKMenuPopover.h */,
+				6CF137A01BE27D5800DC0C4A /* MLKMenuPopover.m */,
+			);
+			name = MLKMenuPopover;
+			sourceTree = "<group>";
+		};
+		CD7B561BEF91A1FC76A3CAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2717F46F2DA6B11940DCB68 /* libPods-LeoMarketPlace.a */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C00F99E1BC432EC000823EB /* LeoMarketPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C00F9B61BC432EC000823EB /* Build configuration list for PBXNativeTarget "LeoMarketPlace" */;
+			buildPhases = (
+				6552C07BE9CD2E5BFC5098C9 /* Check Pods Manifest.lock */,
+				6C00F99B1BC432EC000823EB /* Sources */,
+				6C00F99C1BC432EC000823EB /* Frameworks */,
+				6C00F99D1BC432EC000823EB /* Resources */,
+				BBD22EB9BE22DFB615E6B66E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeoMarketPlace;
+			productName = LeoMarketPlace;
+			productReference = 6C00F99F1BC432EC000823EB /* LeoMarketPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C00F9971BC432EC000823EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hrishi;
+				TargetAttributes = {
+					6C00F99E1BC432EC000823EB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 67822934AQ;
+					};
+				};
+			};
+			buildConfigurationList = 6C00F99A1BC432EC000823EB /* Build configuration list for PBXProject "LeoMarketPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C00F9961BC432EC000823EB;
+			productRefGroup = 6C00F9A01BC432EC000823EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C00F99E1BC432EC000823EB /* LeoMarketPlace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C00F99D1BC432EC000823EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCAC96A1BCA49D1007D2802 /* Main.storyboard in Resources */,
+				6C00F9B21BC432EC000823EB /* LaunchScreen.storyboard in Resources */,
+				6C00F9AF1BC432EC000823EB /* Assets.xcassets in Resources */,
+				6C4FC4F71BCC294F0094C87D /* WorkOrder.json in Resources */,
+				6C4FC4F51BCC294F0094C87D /* Login.json in Resources */,
+				6C4FC4F61BCC294F0094C87D /* UploadPicture.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6552C07BE9CD2E5BFC5098C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD22EB9BE22DFB615E6B66E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeoMarketPlace/Pods-LeoMarketPlace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C00F99B1BC432EC000823EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4FC4F11BCC29350094C87D /* WebservicesHelper.m in Sources */,
+				6C0F15AD1BDBBA4B00929317 /* AppManager+LookUp.m in Sources */,
+				6CF137A11BE27D5800DC0C4A /* MLKMenuPopover.m in Sources */,
+				6C0F15AA1BDB973100929317 /* AppManager+WorkOrder.m in Sources */,
+				6CC034B91BC43F3900222EDC /* LoginViewController.m in Sources */,
+				6CC034BC1BC43F5900222EDC /* SignUpViewController.m in Sources */,
+				6CC034D41BC440EC00222EDC /* CartViewController.m in Sources */,
+				6C0F15B01BDBBCB900929317 /* QSISessionManager+LookUp.m in Sources */,
+				6CCAC96D1BCA4F8D007D2802 /* MenuViewController.m in Sources */,
+				6C4FC5031BCC2A960094C87D /* Utilities.m in Sources */,
+				6CC034A61BC4380B00222EDC /* AppDelegate.m in Sources */,
+				6C0F15A91BDB973100929317 /* AppManager+User.m in Sources */,
+				6CC034D11BC440D400222EDC /* InVoiceHistoryViewController.m in Sources */,
+				6CC034CB1BC4408800222EDC /* ChangePasswordViewController.m in Sources */,
+				6CC034C51BC4400F00222EDC /* MerchantProgramViewController.m in Sources */,
+				6CC034C21BC43FF000222EDC /* AboutViewController.m in Sources */,
+				6CC034E01BC4437E00222EDC /* LeoMarketPlace.xcdatamodeld in Sources */,
+				6CC034AE1BC4383700222EDC /* Webservices.m in Sources */,
+				6CCAC9681BCA44BC007D2802 /* SWRevealViewController.m in Sources */,
+				6CC034BF1BC43F7600222EDC /* SearchViewController.m in Sources */,
+				6C00F9A41BC432EC000823EB /* main.m in Sources */,
+				6CC034CE1BC440B100222EDC /* POSViewController.m in Sources */,
+				6CC034C81BC4405B00222EDC /* UpdateProfileViewController.m in Sources */,
+				6C4FC4EF1BCC29350094C87D /* QSISessionManager+User.m in Sources */,
+				6C0F15A81BDB973100929317 /* AppManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C00F9B01BC432EC000823EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C00F9B11BC432EC000823EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C00F9B41BC432EC000823EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C00F9B51BC432EC000823EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C00F9B71BC432EC000823EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4BF3ADCA079A0F5D25DCC6 /* Pods-LeoMarketPlace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LeoMarketPlace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.LeoMarketPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6C00F9B81BC432EC000823EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E63AE2A68558A03983964EB /* Pods-LeoMarketPlace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LeoMarketPlace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.LeoMarketPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C00F99A1BC432EC000823EB /* Build configuration list for PBXProject "LeoMarketPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C00F9B41BC432EC000823EB /* Debug */,
+				6C00F9B51BC432EC000823EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C00F9B61BC432EC000823EB /* Build configuration list for PBXNativeTarget "LeoMarketPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C00F9B71BC432EC000823EB /* Debug */,
+				6C00F9B81BC432EC000823EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CC034DE1BC4437E00222EDC /* LeoMarketPlace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CC034DF1BC4437E00222EDC /* LeoMarketPlace.xcdatamodel */,
+			);
+			currentVersion = 6CC034DF1BC4437E00222EDC /* LeoMarketPlace.xcdatamodel */;
+			path = LeoMarketPlace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C00F9971BC432EC000823EB /* Project object */;
+}
